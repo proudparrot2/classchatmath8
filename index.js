@@ -5,11 +5,12 @@ window.onload = function() {
   var firebaseConfig = {
     apiKey: "AIzaSyAuWYRUCSDdzSbyJRo9lQAhUdsy11S09Bk",
     authDomain: "classchatmath8.firebaseapp.com",
+    databaseURL: "https://classchatmath8-default-rtdb.firebaseio.com",
     projectId: "classchatmath8",
     storageBucket: "classchatmath8.appspot.com",
     messagingSenderId: "146336185625",
-    appId: "1:146336185625:web:fcf2e2fef67588a3455988",
-    measurementId: "G-JXK4KMZ7BG"
+    appId: "1:146336185625:web:bdd1f2997e53d03a455988",
+    measurementId: "G-R6Q16S076E"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
